@@ -9,7 +9,7 @@ To run it,
  - Upload the **hotel.sql** (available in the *dist*) to the database using commands:
    - `source \hotel.sql`
  - Also, make sure the root has no password as I've coded that way. 
-   - `ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';`
+   - `ALTER USER 'root'@'localhost' IDENTIFIED BY '';`
    - You can change it later
  - Check the "owner" table to check owner's credentials.
  - Check the "employee" table to check employee's credentials.
